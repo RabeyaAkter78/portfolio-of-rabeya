@@ -5,8 +5,6 @@ import "antd/dist/reset.css";
 import { Button, ConfigProvider, Drawer } from "antd";
 import { RxHamburgerMenu } from "react-icons/rx";
 import Link from "next/link";
-import Image from "next/image";
-import { AllImages } from "@/assets/images/AllImages";
 const NavBar = () => {
   const [drawerVisible, setDrawerVisible] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -29,9 +27,10 @@ const NavBar = () => {
 
   const labels = [
     { name: "Home", link: "/" },
-    { name: "Competition", link: "/competition-rooms" },
-    { name: "Profile", link: "/user-profile" },
-    { name: "Contact Us", link: "/contact-us" },
+    { name: "About", link: "/about-me" },
+    { name: "Projects", link: "/projects" },
+    { name: "Contact", link: "/contact" },
+    { name: "Blogs", link: "/blogs" },
   ];
 
   const handleMobileMenuClick = () => {
