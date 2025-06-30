@@ -1,3 +1,4 @@
+import Skills from "@/components/Pages/Skills";
 import Image from "next/image";
 import React from "react";
 import { FaArrowRight } from "react-icons/fa";
@@ -44,6 +45,8 @@ const Home = () => {
             20+ Projects
           </h1>
         </div>
+
+        <Skills></Skills>
       </div>
     </div>
   );
