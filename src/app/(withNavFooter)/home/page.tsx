@@ -2,6 +2,7 @@ import Skills from "@/components/Pages/Skills";
 import Image from "next/image";
 import React from "react";
 import { FaArrowRight } from "react-icons/fa";
+import ProjectsPage from "../projects/page";
 
 const Home = () => {
   return (
@@ -46,8 +47,10 @@ const Home = () => {
           </h1>
         </div>
 
-        <Skills></Skills>
+       
       </div>
+       <Skills></Skills>
+        <ProjectsPage />
     </div>
   );
 };
