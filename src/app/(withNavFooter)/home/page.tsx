@@ -28,7 +28,7 @@ const Home = () => {
           </div>
           <div className="flex flex-col justify-center items-end my-5 md:my-10">
             <Image
-              src="/rabeya.jpg"
+              src="/rabeya.png"
               alt="rabeya"
               height="500"
               width="500"
