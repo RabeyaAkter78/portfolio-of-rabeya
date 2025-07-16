@@ -128,8 +128,8 @@ const Skills = () => {
   ];
 
   return (
-    <div className="mt-10">
-      <h1 className="text-6xl mb-8">What I Do</h1>
+    <div className="mt-10 container mx-auto">
+      <h1 className="text-6xl mb-8 text-white">What I Do</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         {data.map((item) => (
           <div key={item._id} className="p-4 border rounded shadow">
