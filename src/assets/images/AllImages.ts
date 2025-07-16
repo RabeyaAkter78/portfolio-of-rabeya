@@ -19,6 +19,9 @@ import rest from "../images/rest.png";
 import postman from "../images/postman.png";
 import jwt from "../images/jwt.png";
 import figma from "../images/figma.png";
+import p1 from "../images/p1.jpg"
+import p2 from "../images/p2.jpg"
+import p3 from "../images/p3.jpg"
 
 export const AllImages = {
   logo,
@@ -41,5 +44,8 @@ export const AllImages = {
   rest,
   postman,
   jwt,
-  figma
+  figma,
+  p1,
+  p2,
+  p3
 };
